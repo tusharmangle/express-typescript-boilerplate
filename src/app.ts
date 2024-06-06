@@ -6,7 +6,7 @@ const app = express()
 
 // cors is used to allow cross origin requests
 app.use(cors({
-    origin: config.FRONT_END_URL,
+    origin: config.front_end_url,
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
 }))
