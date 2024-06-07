@@ -3,6 +3,7 @@
 - Express JS ✅
 - Eslint ✅
 - Prettier ✅
+- Error Handling ✅
 
 To get up and running
 
