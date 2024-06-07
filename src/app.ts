@@ -13,7 +13,7 @@ app.use(cors({
 
 // routes
 app.get("/", (req, res) => {
-    res.json({message: "Hello World"})
+    res.json({message: "Hello Express-TypeScript"})
 })
 
 export default app;

@@ -4,7 +4,8 @@ dotenv.config();
 
 const _config = {
     port: process.env.PORT || 3000,
-    front_end_url: process.env.FRONT_END_URL
+    front_end_url: process.env.FRONT_END_URL,
+    database_URI: process.env.DATABASE_URI
 }
 
 export const config = Object.freeze(_config)
